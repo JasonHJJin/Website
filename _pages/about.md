@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <div class="about-page-aboutme">
+  <p>Welcome to my homepage!</p>
   <p>Originally from South Korea, I moved to the US in 8th grade and had the privilege of attending <a href="https://www.rectoryschool.org/">The Rectory School</a> in Connecticut, followed by <a href="https://www.andover.edu/">Phillips Academy Andover</a> in Massachusetts. Fueled by a passion for engineering, I pursued a dual degree program, earning a B.A. in Mathematics from <a href="https://www.fandm.edu/">Franklin & Marshall College</a> on a full scholarship. Currently, I am completing a B.S. in Computer Engineering at <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>.</p>
   <p>Now embracing NYC as my home, I am enthusiastically pursuing a variety of remote and local opportunities!</p>
 </div>
