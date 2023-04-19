@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin-top: 0;
   font-size: $type-size-3;
+  font-size: 24px;
 }
 
 h2 {
@@ -313,3 +314,61 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.about-page-aboutme {
+  // background-color: #f2f2f2;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  }
+  
+  .about-page-aboutme p {
+  margin: 0;
+  }
+
+.about-page-background {
+  font-size: 14px; /* Change this value to the desired font size */
+}
+
+
+.about-page-background {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-page-background h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-page-background h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.about-page-background ul{
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-page-background a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+.about-page-background a:hover {
+  text-decoration: underline;
+}
+
