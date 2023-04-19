@@ -11,9 +11,9 @@ title                    : "Jason Jin"
 title_separator          : "-"
 name                     : &name "Jason Jin"
 description              : &description "Student at Columbia University in the City of New York"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jasonhjjin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "JasonHJJin/jasonjin.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "hj2602@columbia.edu"
+    email                : "jinjasonhj@gmail.com"
   generatedFields:
     date:
       type               : "date"
