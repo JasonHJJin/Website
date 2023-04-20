@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
-  <p>Originally from South Korea, I moved to the US in 8th grade and had the privilege of attending <a href="https://www.rectoryschool.org/">The Rectory School</a> in Connecticut, followed by <a href="https://www.andover.edu/">Phillips Academy Andover</a> in Massachusetts. With a passion for engineering, I embarked on a dual degree journey, obtaining a B.A. in Mathematics from <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, fully supported by the Clarkson family grant's generous scholarship. Currently, I am completing the other B.S. in Computer Engineering at <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>.</p>
+  <p>Originally from South Korea, I moved to the US in 8th grade and had the privilege of attending <a href="https://www.rectoryschool.org/">The Rectory School</a> in Connecticut, followed by <a href="https://www.andover.edu/">Phillips Academy Andover</a> in Massachusetts. With a passion for engineering, I embarked on a dual degree journey, obtaining a B.A. in Mathematics from <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, fully supported by the Clarkson Family Grant's generous scholarship. Currently, I am completing a B.S. in Computer Engineering at <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>.</p>
   <p>Now embracing NYC as my home, I am enthusiastically pursuing a variety of remote and local opportunities!</p>
 </div>
 
@@ -20,7 +20,7 @@ Background
 
 <div class="about-page-background">
     <h2>Columbia University in the City of New York</h2>
-<h3>Courseworks Examples</h3>
+<h3>Coursework</h3>
 <h3>Software</h3>
 <ul>
   <li><strong>Data Structures in Java:</strong> Studied the implementation and use of common data structures using Java.</li>
@@ -59,7 +59,7 @@ Background
   <li><strong>Fundamentals of Computer Systems</strong></li>
 </ul>
 <h2>Franklin & Marshall College</h2>
-<h3>Courseworks Examples</h3>
+<h3>Coursework</h3>
 <ul>
   <li><strong>Linear Algebra and Differential Equations</strong></li>
   <li><strong>Advanced Linear Algebra</strong></li>
