@@ -318,18 +318,19 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 .about-page-aboutme {
   // background-color: #f2f2f2;
   border-radius: 8px;
-  font-family: 'Arial', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  padding: 20px;
-  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 30px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: justify;
-  }
+}
   
-  .about-page-aboutme p {
-  margin: 0;
-  }
+.about-page-aboutme p {
+  margin-bottom: 1.25em;
+}
+
 
 .about-page-background {
   font-size: 14px; /* Change this value to the desired font size */
@@ -341,7 +342,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   line-height: 1.5;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 .about-page-background h2 {
