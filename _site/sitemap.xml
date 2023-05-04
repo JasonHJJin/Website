@@ -33,7 +33,7 @@
 <loc>http://localhost:4000/collection-archive/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/cv/</loc>
+<loc>http://localhost:4000/_pages/cv/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_pages/markdown/</loc>
