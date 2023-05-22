@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    color: #5e6969;
+    color: #656767;
     font-size: 5.625rem;
     margin: 150px auto 0 auto;
     line-height: 2;
@@ -13,14 +13,14 @@ h1{
 }
 
 h2{
-    color: #5e6969;
+    color: #7a7c7c;
     font-size: 2.5rem;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3{
-    color: #11999E;
+    color: #8b8e8e;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,7 +30,7 @@ h3{
 }
 
 .top-container{
-    background-color: #f7f6ed;
+    background-color: #F6f6f6;
     position: relative;
     padding-top: 100px;
     padding-bottom: 175px;
@@ -43,11 +43,11 @@ h3{
 
 .middle-container{
     position: relative;
-    background-color: #f7f6ed;
+    background-color: #F6f6f6;
 }
 
 .bottom-container{
-    background-color: #f7f6ed;
+    background-color: #F6f6f6;
 }
 
 .skills{
@@ -163,6 +163,6 @@ p{
 }
 
 .space1{
-    background-color: #f7f6ed;
+    background-color: #F6f6f6;
     height:100px;
 };
