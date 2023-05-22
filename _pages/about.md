@@ -12,9 +12,9 @@ redirect_from:
   <p>Welcome to my homepage!</p>
   <p>I am a passionate AI entrepreneur, originally from South Korea but currently residing in NYC. I moved to the US during my middle school years and was fortunate to study in esteemed institutions like <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>, which nurtured my interests in mathematics and computer engineering.</p>
 
-  <p>Presently, I lead <a href="https://www.xeward.co.kr/">Xeward</a>, my startup company based in South Korea, which is dedicated to developing AI solutions that can make a significant positive impact on people's lives. Although our website is presently under construction, our commitment to this cause is unwavering.</p>
+  <p>Presently, I lead <a href="https://www.xeward.co.kr/">Xeward</a>, my startup company based in South Korea, which is dedicated to developing AI solutions that can make a significant positive impact on people's lives. The webiste is being renewed at this time and will be available in late June including the release of one of our AI solutions</p>
 
-  <p>Meanwhile, I am exploring full-time opportunities in NYC that resonate with my passion for AI and its potential to make a difference in society. I am eager to collaborate with professionals and organizations that align with these values, whether the opportunities are remote or local. I am excited about the prospects of harnessing AI to create a more meaningful future.</p>
+  <p>Meanwhile, I am exploring full-time/research opportunities in NYC that resonate with my passion for AI and its potential to make a difference in society. I am eager to collaborate with professionals and organizations that align with these values, whether the opportunities are remote or local. I am excited about the prospects of harnessing AI to create a more meaningful future.</p>
 </div>
 
 Background
