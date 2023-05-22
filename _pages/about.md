@@ -25,7 +25,7 @@ Background
 <h3>Coursework</h3>
 <h3>Software</h3>
 <ul>
-  <li><strong>Data Structures in Java:</strong></li>
+  <li><strong>Data Structures in Java</strong></li>
   <li><strong>Advanced Programming</strong></li>
   <li><strong>Computer Science Theory</strong></li>
   <li><strong>From Algorithm to Development</strong>
