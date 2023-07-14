@@ -12,9 +12,10 @@ redirect_from:
   <p>Welcome to my homepage!</p>
   <p>I am a passionate AI entrepreneur, originally from South Korea but currently residing in NYC. I moved to the US during my middle school years and was fortunate to study in institutions like <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>, which nurtured my interests in mathematics and computer engineering.</p>
 
-  <p>Currently, I'm a director at <a href="https://www.xeward.co.kr/">Xeward</a>, a startup company based in South Korea, with a presence in New York. Our company is dedicated to developing AI solutions that generate rewards for users across various platforms. The website is currently undergoing renewal and will be available in late June, along with the release of one of our AI solutions. In the meantime, you can follow our ongoing progress at http://xeward.ai.</p>
+  <p>I am currently serving as a Director/Backend Engineer at <a href="https://www.xeward.co.kr/">Xeward</a>, a South Korea-based startup with a presence in New York. I'm under a one-year contract with this innovative company that's dedicated to creating AI solutions to reward users across various platforms. My responsibilities include maintaining our website (http://xeward.ai) and overseeing the deployment of our AI solutions.</p>
 
-  <p>Meanwhile, I am exploring full-time/research opportunities in NYC for Summer 2024 that align with my passion for computer science. I am eager to collaborate with professionals and organizations that share these values, regardless of whether the opportunities are remote or local. I am excited about the prospects of harnessing AI to create a more meaningful future.</p>
+  <p>As my current role concludes in May 2024, I'm seeking full-time or research opportunities in NYC for Summer 2024. My objective is to secure a position that leverages my strong interest in computer science, and where I can apply and further develop my skills in data analysis and machine learning. I'm enthusiastic about collaborating with professionals and organizations that share this commitment to technological advancement. I'm open to both remote and local opportunities.</p>
+
 </div>
 
 Background
