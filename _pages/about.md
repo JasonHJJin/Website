@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="about-page-aboutme">
+<!-- <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
   <p>I am a passionate AI entrepreneur, originally from South Korea but currently residing in NYC. I moved to the US during my middle school years and was fortunate to study in institutions like <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>, which nurtured my interests in mathematics and computer engineering.</p>
 
@@ -16,7 +16,7 @@ redirect_from:
 
   <p>As my current role concludes in May 2024, I'm seeking full-time or research opportunities in NYC for Summer 2024. My objective is to secure a position that leverages my strong interest in computer science, and where I can apply and further develop my skills in data analysis and machine learning. I'm enthusiastic about collaborating with professionals and organizations that share this commitment to technological advancement. I'm open to both remote and local opportunities.</p>
 
-</div>
+</div> -->
 
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
