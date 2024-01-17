@@ -8,76 +8,109 @@ redirect_from:
   - /about.html
 ---
 
-<!-- <div class="about-page-aboutme">
-  <p>Welcome to my homepage!</p>
-  <p>I am a passionate AI entrepreneur, originally from South Korea but currently residing in NYC. I moved to the US during my middle school years and was fortunate to study in institutions like <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and <a href="https://www.columbia.edu/">Columbia University in the City of New York</a>, which nurtured my interests in mathematics and computer engineering.</p>
-
-  <p>I am currently serving as a Director/Backend Engineer at <a href="https://www.xeward.co.kr/">Xeward</a>, a South Korea-based startup with a presence in New York. I'm under a one-year contract with this company that's dedicated to creating AI solutions to reward users across various platforms. My responsibilities include maintaining our website (http://xeward.ai) and overseeing the deployment of our AI solutions.</p>
-
-  <p>As my current role concludes in May 2024, I'm seeking full-time or research opportunities in NYC for Summer 2024. My objective is to secure a position that leverages my strong interest in computer science, and where I can apply and further develop my skills in data analysis and machine learning. I'm enthusiastic about collaborating with professionals and organizations that share this commitment to technological advancement. I'm open to both remote and local opportunities.</p>
-
-</div> -->
-
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
-  <p>As a full-time master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am deeply engaged in statistical modeling and data science. My academic endeavors in the US, including studies at <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and now Columbia, have enriched my proficiency in mathematics and computer engineering.</p>
+  <p>As a full-time master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
 
-  <p>I am on the lookout for full-time internship roles in data engineering for Summer 2024, keen to leverage my skills in machine learning and data analysis within a practical environment. My goal is to find a position where I can not only contribute but also expand my knowledge through real-world applications.</p>
+  <p>I am on the lookout for full-time internship roles in data engineering for Summer 2024, as I enrolled in this master's program to pivot into a data career.</p>
 
-  <p>On a part-time basis, I'm the founder and lead developer at <a href="https://www.xeward.co.kr/">Xeward</a>, a startup where we are innovating within the web 3 blockchain ecosystem to create rewarding user experiences. My role allows me to lead technology development and manage product innovation.</p>
+  <p>On a part-time basis, I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application currently in its survey stage with just the prototype released. It is subject to change and flexible.</p>
 
-  <p>My entrepreneurial spirit is further exemplified by my project Surgg, a real-time search trend entertainment application. We are dedicated to delivering the quickest and most reliable content, utilizing the latest AI technologies to meet the surge in demand for real-time information.</p>
-
-  <p>I am authorized to work in the United States without sponsorship and am eager to engage with industry leaders who can provide insight or who are interested in the initiatives I am pioneering. Please feel free to connect if you're interested in discussing potential opportunities or collaborations.</p>
+  <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a data engineer.</p>
 </div>
 
 
-
-Background
-======
-
 <div class="about-page-background">
-    <h2>Columbia University in the City of New York</h2>
-<h3>Coursework</h3>
-<h3>Software</h3>
+   <h1>Professional Experience</h1>
+   <h2>Xeward, Inc. — New York, NY</h2>
+<h3>Founder & Lead Developer (Part-Time)</h3>
+<p>May 2023 - Present</p>
 <ul>
-  <li><strong>Data Structures in Java</strong></li>
-  <li><strong>Advanced Programming</strong></li>
-  <li><strong>Computer Science Theory</strong></li>
+  <li>Led the creation and launch of <a href="https://www.surgg.io/" target="_blank">Surgg</a>, a short video entertainment app, integrating real-time Google Trends for trend tracking on web, <a href="https://apps.apple.com/us/app/surgg/id6472812740" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.surgg" target="_blank">Android</a>.</li>
+  <li>Managed end-to-end full stack development, from frontend design using modern frameworks to backend server setup and maintenance.</li>
+  <li>Integrated Google Ads and optimized server costs to ensure the platform's sustainable operations and profitability.</li>
+</ul>
+
+<h2>HumusOn — Seoul, South Korea</h2>
+<h3>Data Analyst Intern</h3>
+<p>Jun 2022 - Aug 2022</p>
+<ul>
+  <li>Engineered automation protocols and API integrations, bolstering CRM effectiveness. Utilized Python, and Scikit-learn to build ML models for large datasets, and leveraged Tableau for customer demand forecasting and statistical reporting.</li>
+</ul>
+
+<h2>Witchcompany co. — Seoul, South Korea</h2>
+<h3>Software Engineering Intern</h3>
+<p>Jun 2021 - Aug 2021</p>
+<ul>
+  <li>Enhanced UX by integrating DApps with Ethereum blockchain and developing secure smart contracts with Solidity.</li>
+</ul>
+
+<h2>Upcoming — Seoul, South Korea</h2>
+<h3>Front-End Development Intern</h3>
+<p>Jun 2020 - Aug 2020</p>
+<ul>
+  <li>Gained extensive knowledge of MVC architecture via Android/IOS Swift and Full Stack development workshops.</li>
+</ul>
+
+<h2>Ministry of National Defense — Seoul, South Korea</h2>
+<h3>Military Interpreter | Squad Leader</h3>
+<p>Aug 2017 - Jun 2019</p>
+<ul>
+  <li>Translated between Defense Security Agency researchers and General Dynamics & Espy Corp. technicians.</li>
+  <li>Received <a href="https://github.com/JasonHJJin/etc/blob/main/letter_of_appreciation.pdf" target="_blank">Letter of Appreciation</a> from the National Security Agency.</li>
+</ul>
+
+
+
+<h2><br><br></h2>
+  <h1>Certifications</h1> 
+  <h2>Bloomberg Market Concepts — New York, NY</h2>
+<h3>Personal Project | Credential ID: jZC8zQeR3FmDy6Dsdcopcuhn</h3>
+<p>Apr 2023 - July 2023</p>
+<ul>
+  <li>Credential URL: <a href="https://portal.bloombergforeducation.com/certificates/jZC8zQeR3FmDy6Dsdcopcuhn" target="_blank">Bloomberg Market Concepts Certificate</a></li>
+</ul>
+
+<h2>Web Development Bootcamp — New York, NY</h2>
+<h3>Personal Project | Credential ID: UC-6e1e772f-7e8d-46d7-9e22-d9bb033cc749</h3>
+<p>Jan 2023 - Apr 2023</p>
+<ul>
+  <li>Certificate URL: <a href="https://www.udemy.com/certificate/UC-6e1e772f-7e8d-46d7-9e22-d9bb033cc749/" target="_blank">Web Development Bootcamp Certificate</a></li>
+</ul>
+
+<h2>Machine Learning for Finance — New York, NY</h2>
+<h3>Group Project</h3>
+<p>Jan 2023 - May 2023</p>
+<ul>
+  <li>Implemented LSTM and FinBERT in TensorFlow and PyTorch for sentiment analysis of financial news, integrating insights into a stock market strategy.</li>
+  <li>Preprocessed large financial datasets with Python, Pandas, NumPy, and scikit-learn, and performed text analysis using NLTK and custom tools.</li>
+  <li>Project Link: <a href="https://github.com/JasonHJJin/ml_finance/blob/main/Final%20Draft.docx.pdf" target="_blank">Machine Learning for Finance Project</a></li>
+</ul>
+
+
+<h2><br><br></h2>
+   <h1>Education</h1> 
+   <h2>Columbia University in the City of New York <br>(B.S. in Computer Engineering)</h2>
+<h3>Some coursework include</h3>
+<ul>
   <li><strong>From Algorithm to Development</strong>
-    <!-- <ul>
+    <ul>
       <li>Final Group Project | <a href="https://github.com/JasonHJJin/algorithm_to_dev/tree/main/FinalProject">Sudoku Solver</a>; Solved Project Euler #96 Sudoku problem in Java with various optimizations such as using BufferedReader over Scanner, byte arrays instead of character arrays, bit shifting, and more with JProfiler monitoring; In addition, we hardcoded the Sudoku puzzle visually in terminal using Unicode character sequences in Java</li>
-    </ul> -->
+    </ul>
   </li>
+  <li><strong>Applied Machine Learning</strong></li>
   <li><strong>Artificial Intelligence</strong></li>
   <li><strong>Programming Languages and Translators</strong></li>
   <li><strong>Competitive Programming</strong></li>
-  <li><strong>Applied Machine Learning</strong></li>
+  <li><strong>Intro to Database Systems</strong></li>
   <li><strong>Machine Learning for Finance</strong></li>
+  <li><strong>Data Structures in Java</strong></li>
+  <li><strong>Advanced Programming</strong></li>
+  <li><strong>Computer Science Theory</strong></li>
+  ...
 </ul>
-<h3>Hardware</h3>
-<ul>
-  <li><strong>Computer Networks</strong>
-    <!-- <ul>
-      <li>Set up my own virtual machine instance using Google Cloud and implemented adaptive bitrate selection in an HTTP proxy using the ABR algorithm</li>
-      <li>Streamed the highest quality encoding that the connection can handle with videos served from Apache server</li>
-      <li>Configured OSPF, iBGP, eBGP routing protocols and implemented various BGP policies utilizing FRRouting Software Suite</li>
-    </ul> -->
-  </li>
-  <li><strong>Intro to EE/Circuit Analysis:</strong>
-    <!-- <ul>
-      <li>Built a phaser, a signal processor intended for an electric guitar with an all-pass filter with variable MOSFET resistors</li>
-      <li>Built a speaker driver using LM741 op-amp and discrete transistors from the basis of a buffered unity gain circuit</li>
-      <li>Built rock paper scissors game on a circuit board using CMOS Quad XOR gates, pull-down resistors, and 5V Arduino</li>
-    </ul> -->
-  </li>
-  <li><strong>Signals & Systems</strong></li>
-  <li><strong>Advanced Logic Design</strong></li>
-  <li><strong>System-on-chip Platforms</strong></li>
-  <li><strong>Fundamentals of Computer Systems</strong></li>
-</ul>
-<h2>Franklin & Marshall College</h2>
-<h3>Coursework</h3>
+<h2>Franklin & Marshall College <br>(B.A. in Mathematics)</h2>
+<h3>Some coursework include</h3>
 <ul>
   <li><strong>Linear Algebra and Differential Equations</strong></li>
   <li><strong>Advanced Linear Algebra</strong></li>
@@ -86,8 +119,9 @@ Background
   <li><strong>Abstract Algebra</strong></li>
   <li><strong>Stochastic Processes</strong></li>
   <li><strong>Symbolic Logic</strong></li>
+  ...
 </ul>
-    <h2>Phillips Academy Andover</h2>
+<h2>Phillips Academy Andover</h2>
 <h3>Extracurricular Activities:</h3>
 <ul>
   <li><strong>Andover Korean Society (AKS) - President:</strong> Organized and led events to promote Korean culture in the Andover community, including Korean Awareness Week and the Korean Talent & Fashion Show, which featured presentations, food sampling, and traditional performances.</li>
@@ -104,3 +138,9 @@ Background
   <li><strong>School Newspaper - Writer and Editor:</strong> Contributed articles for the school newspaper.</li>
 </ul>
   </div>
+
+
+
+
+
+  

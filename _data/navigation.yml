@@ -3,9 +3,9 @@ main:
   - title: "Resume/CV"
     url: /files/resume.pdf
 
-  - title: "Interests"
-    url: /interests/index.html
+  # - title: "Interests"
+  #   url: /interests/index.html
 
-  - title: "Web 3"
-    url: "https://github.com/JasonHJJin/ic-projects"   
+  # - title: "Web 3"
+  #   url: "https://github.com/JasonHJJin/ic-projects"   
     

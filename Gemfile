@@ -26,3 +26,4 @@ end
 
 gem 'webrick'
 
+gem 'nokogiri'

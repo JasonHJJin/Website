@@ -316,61 +316,110 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .about-page-aboutme {
-  // background-color: #f2f2f2;
-  border-radius: 8px;
+  background-color: #f9f9f9; /* A light grey background for a subtle, modern look */
+  border: 1px solid #e0e0e0; /* Adds a slight border for depth */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Soft shadow for a 3D effect */
+  border-radius: 10px; /* Slightly larger radius for a softer edge */
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  padding: 30px;
+  padding: 40px; /* Increased padding for better spacing */
   max-width: 800px;
-  margin: 0 auto;
-  text-align: justify;
+  margin: 20px auto; /* Added top and bottom margin for spacing from other elements */
+  text-align: left; /* Align text to the left for a cleaner, more modern look */
+  color: #333; /* Darker text for better readability */
 }
-  
+
 .about-page-aboutme p {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.5em; /* Slightly increased spacing between paragraphs */
+  color: #555; /* Slightly lighter text color for paragraphs */
+}
+
+.about-page-aboutme a {
+  color: #0066cc; /* Bright link color for better visibility and modern feel */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.about-page-aboutme a:hover {
+  text-decoration: underline; /* Underline on hover for a classic, interactive look */
+}
+
+/* Additional styling for responsive design */
+@media (max-width: 768px) {
+  .about-page-aboutme {
+      padding: 30px; /* Smaller padding on smaller screens */
+      max-width: 95%; /* Full width on smaller screens */
+  }
 }
 
 
 .about-page-background {
-  font-size: 14px; /* Change this value to the desired font size */
-}
-
-
-.about-page-background {
-  font-size: 14px;
-  line-height: 1.5;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
+  font-size: 15px; /* Slightly larger font size for readability */
+  line-height: 1.8; /* Improved line height for readability */
+  color: #333; /* Dark grey color for better readability */
+  background-color: #ffffff; /* Clean white background */
   max-width: 800px;
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 20px;
+  margin: 40px auto; /* More vertical space */
+  padding: 40px; /* Consistent padding */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 12px; /* Soft, modern border radius */
+}
+
+.about-page-background h1, h2, h3 {
+  color: #2c3e50; /* Dark blue for headings */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about-page-background h1 {
+  font-size: 28px; /* Larger size for main title */
+  font-weight: bold;
 }
 
 .about-page-background h2 {
-  font-size: 24px;
+  font-size: 21px; /* Slightly larger for subsections */
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .about-page-background h3 {
-  font-size: 18px;
+  font-size: 16px; /* Adjusted for smaller headings */
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 5px;
 }
 
-.about-page-background ul{
-  list-style-type: disc;
-  padding-left: 20px;
+
+
+.about-page-background ul {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Adjust padding */
+  margin-left: 20px; /* Indent for list */
+}
+
+.about-page-background li:before {
+  content: '•'; /* Custom bullet point */
+  color: #3498db; /* Bullet color */
+  display: inline-block; /* Align with text */
+  width: 1em; /* Space before bullet */
+  margin-left: -1em; /* Position bullet correctly */
 }
 
 .about-page-background a {
-  color: #0000EE;
+  color: #3498db; /* Blue for links */
   text-decoration: none;
 }
 
 .about-page-background a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline on hover */
+  color: #2980b9; /* Darker blue on hover */
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-page-background {
+      margin: 20px;
+      padding: 20px;
+      max-width: 90%;
+  }
+}
+
 
