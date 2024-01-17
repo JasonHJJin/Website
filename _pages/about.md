@@ -18,6 +18,21 @@ redirect_from:
 
 </div>
 
+<div class="about-page-aboutme">
+  <p>Welcome to my homepage!</p>
+  <p>As a full-time master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am deeply engaged in statistical modeling and data science. My academic endeavors in the US, including studies at <a href="https://www.rectoryschool.org/">The Rectory School</a>, <a href="https://www.andover.edu/">Phillips Academy Andover</a>, <a href="https://www.fandm.edu/">Franklin & Marshall College</a>, and now Columbia, have enriched my proficiency in mathematics and computer engineering.</p>
+
+  <p>I am on the lookout for full-time internship roles in data engineering for Summer 2024, keen to leverage my skills in machine learning and data analysis within a practical environment. My goal is to find a position where I can not only contribute but also expand my knowledge through real-world applications.</p>
+
+  <p>On a part-time basis, I'm the founder and lead developer at <a href="https://www.xeward.co.kr/">Xeward</a>, a startup where we are innovating within the web 3 blockchain ecosystem to create rewarding user experiences. My role allows me to lead technology development and manage product innovation.</p>
+
+  <p>My entrepreneurial spirit is further exemplified by my project Surgg, a real-time search trend entertainment application. We are dedicated to delivering the quickest and most reliable content, utilizing the latest AI technologies to meet the surge in demand for real-time information.</p>
+
+  <p>I am authorized to work in the United States without sponsorship and am eager to engage with industry leaders who can provide insight or who are interested in the initiatives I am pioneering. Please feel free to connect if you're interested in discussing potential opportunities or collaborations.</p>
+</div>
+
+
+
 Background
 ======
 
