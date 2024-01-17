@@ -396,63 +396,71 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 
 .about-page-background {
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
-  font-size: 15px; /* Slightly larger font size for readability */
-  line-height: 1.8; /* Improved line height for readability */
-  color: #333; /* Dark grey color for better readability */
-  background-color: #ffffff; /* Clean white background */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ffffff;
   max-width: 800px;
-  margin: 40px auto; /* More vertical space */
-  padding: 40px; /* Consistent padding */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  border-radius: 12px; /* Soft, modern border radius */
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  will-change: transform; /* Optimizes animations */
+}
+
+.about-page-background:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .about-page-background h1, h2, h3 {
-  color: #2c3e50; /* Dark blue for headings */
+  color: #2c3e50;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
 .about-page-background h1 {
-  font-size: 28px; /* Larger size for main title */
+  font-size: 28px;
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #3498db; /* Colored underline */
 }
 
 .about-page-background h2 {
-  font-size: 21px; /* Slightly larger for subsections */
+  font-size: 21px;
   font-weight: bold;
 }
 
 .about-page-background h3 {
-  font-size: 16px; /* Adjusted for smaller headings */
+  font-size: 16px;
   font-weight: bold;
 }
 
-
-
 .about-page-background ul {
-  list-style-type: none; /* Remove default list style */
-  padding-left: 0; /* Adjust padding */
-  margin-left: 20px; /* Indent for list */
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
 }
 
 .about-page-background li:before {
-  content: '•'; /* Custom bullet point */
-  color: #3498db; /* Bullet color */
-  display: inline-block; /* Align with text */
-  width: 1em; /* Space before bullet */
-  margin-left: -1em; /* Position bullet correctly */
+  content: '•';
+  color: #3498db;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .about-page-background a {
-  color: #3498db; /* Blue for links */
+  color: #3498db;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .about-page-background a:hover {
-  text-decoration: underline; /* Underline on hover */
-  color: #2980b9; /* Darker blue on hover */
+  text-decoration: underline;
+  color: #8ccbf6;
 }
 
 /* Responsive design */
@@ -463,5 +471,3 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       max-width: 90%;
   }
 }
-
-
