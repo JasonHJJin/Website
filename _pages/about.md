@@ -10,11 +10,10 @@ redirect_from:
 
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
-  <p>As a full-time master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
 
-  <p>I am on the lookout for full-time internship roles in data engineering for Summer 2024, as I enrolled in this master's program to pivot into a data career.</p>
-
-  <p>On a part-time basis, I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application currently in its survey stage with just the prototype released. It is subject to change and flexible.</p>
+  <p>I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application currently in its survey stage with just the prototype released.</p>
+  
+  <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
 
   <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a data engineer.</p>
 </div>
