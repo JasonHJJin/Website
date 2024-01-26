@@ -11,7 +11,7 @@ redirect_from:
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
 
-  <p>I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application currently in its survey stage with just the prototype released.</p>
+  <p>I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application with the prototype just released.</p>
   
   <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
 
