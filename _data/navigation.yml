@@ -3,8 +3,8 @@ main:
   - title: "Resume/CV"
     url: /files/resume.pdf
 
-  # - title: "Interests"
-  #   url: /interests/index.html
+  - title: "Surgg"
+    url: /files/pitch-deck.pdf
 
   # - title: "Web 3"
   #   url: "https://github.com/JasonHJJin/ic-projects"   
