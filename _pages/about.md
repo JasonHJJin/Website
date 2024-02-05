@@ -15,7 +15,7 @@ redirect_from:
   
   <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
 
-  <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a data engineer.</p>
+  <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a TPM/data engineer.</p>
 </div>
 
 
