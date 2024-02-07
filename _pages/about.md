@@ -10,10 +10,8 @@ redirect_from:
 
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
-
-  <p>I'm the founder and lead developer at <a href="http://www.xeward.ai">Xeward</a>, a one-man startup where I have further developed my project, Surgg. <a href="https://www.surgg.io">Surgg</a> is a real-time search trend entertainment application with the prototype just released.</p>
   
-  <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development.</p>
+  <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development. I'm also working on a project called <a href="https://www.surgg.io">Surgg</a> - a real-time search trend entertainment app recently featured in <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a></p>
 
   <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a TPM/data engineer.</p>
 </div>
