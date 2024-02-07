@@ -81,9 +81,8 @@ redirect_from:
 <ul>
   <li>Implemented LSTM and FinBERT in TensorFlow and PyTorch for sentiment analysis of financial news, integrating insights into a stock market strategy.</li>
   <li>Preprocessed large financial datasets with Python, Pandas, NumPy, and scikit-learn, and performed text analysis using NLTK and custom tools.</li>
-  <li>Project Link: <a href="https://github.com/JasonHJJin/ml_finance/blob/main/Final%20Draft.docx.pdf" target="_blank">Machine Learning for Finance Project</a></li>
+  <li>Project Link: <a href="https://github.com/JasonHJJin/etc/blob/main/Sample%20Project%20(Finance).pdf" target="_blank">Machine Learning for Finance Project</a></li>
 </ul>
-
 
 <h2><br><br></h2>
    <h1>Education</h1> 
