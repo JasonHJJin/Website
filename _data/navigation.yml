@@ -3,8 +3,8 @@ main:
   - title: "Resume/CV"
     url: /files/resume.pdf
 
-  - title: "Xeward - Surgg"
-    url: /files/pitch-deck.pdf
+  # - title: "Xeward - Surgg"
+  #   url: /files/pitch-deck.pdf
 
   # - title: "Surgg Introduction - YouTube"
   #   url: "https://www.youtube.com/watch?v=oY0xezhJciE"   
