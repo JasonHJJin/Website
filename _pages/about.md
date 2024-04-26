@@ -12,9 +12,9 @@ redirect_from:
   <p>Welcome to my homepage!</p>
   <p>As a recent Computer Engineering graduate from <a href="https://www.columbia.edu/">Columbia University</a>, I'm currently expanding my skill set by pursuing a Master's in Applied Analytics.</p>
   <p>My entrepreneurial journey led me to found Xeward, where I've had the privilege of working on innovative projects. One of my most notable ventures is <a href="https://www.surgg.io">Surgg</a>, a real-time entertainment news app that delivers breaking news to users. Surgg's unique approach has captured the attention of numerous prominent investors, including 500 Global, Sequoia(Peak XV), Entrepreneur First, and many others, leading to initial calls and discussions. The app's success also earned it a feature in <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a>.</p>
-  <p>In addition to Surgg, I've worked on other exciting projects like <a href="https://www.youtube.com/channel/UCrwDNr9MO9hzhXWuMcaj1jA">MuseMate</a>, an AI-powered docent for museums, and a horse racing app that combines my love for data analysis and sports entertainment.</p>
-
-  <p>I am authorized to work in the United States without sponsorship.</p>
+  <p>In addition to Surgg, I've worked on other exciting projects like <a href="https://www.youtube.com/channel/UCrwDNr9MO9hzhXWuMcaj1jA" target="_blank">MuseMate</a>, an AI-powered docent for museums, and a dog walking app <a href="https://apkpure.com/%EB%91%A5%EC%8A%A4%ED%84%B0-%E2%80%93-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%B0%98%EB%A0%A4%EA%B2%AC-%EC%82%B0%EC%B1%85-%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4-%EC%86%8C%EC%85%9C%EC%9D%98-%EC%8B%9C%EC%9E%91/com.xeward.doongster" target="_blank">Doongster</a>.</p>
+  
+<p>I am authorized to work in the United States without sponsorship.</p>
 </div>
 
 
