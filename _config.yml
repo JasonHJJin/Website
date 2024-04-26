@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jason Jin"
+title                    : "Website"
 title_separator          : "-"
 name                     : &name "Jason Jin"
 description              : &description "Student at Columbia University in the City of New York"
