@@ -11,7 +11,7 @@ redirect_from:
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
   <p>As a recent Computer Engineering graduate from <a href="https://www.columbia.edu/">Columbia University</a>, I'm currently expanding my skill set by pursuing a Master's in Applied Analytics.</p>
-  <p>My entrepreneurial journey led me to found <a href="http://www.xeward.ai/">Xeward</a>, where I've had the privilege of working on innovative projects. One of my most notable ventures is <a href="https://www.surgg.io">Surgg</a>, a real-time entertainment news app that delivers breaking news to users. Surgg's unique approach has captured the attention of numerous prominent investors, including 500 Global, Sequoia(Peak XV), Entrepreneur First, and many others, leading to initial calls and discussions. The app's success also earned it a feature in <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a>.</p>
+  <p>My entrepreneurial journey led me to found Xeward, where I've had the privilege of working on innovative projects. One of my most notable ventures is <a href="https://www.surgg.io">Surgg</a>, a real-time entertainment news app that delivers breaking news to users. Surgg's unique approach has captured the attention of numerous prominent investors, including 500 Global, Sequoia(Peak XV), Entrepreneur First, and many others, leading to initial calls and discussions. The app's success also earned it a feature in <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a>.</p>
   <p>In addition to Surgg, I've worked on other exciting projects like <a href="https://www.youtube.com/channel/UCrwDNr9MO9hzhXWuMcaj1jA">MuseMate</a>, an AI-powered docent for museums, and a horse racing app that combines my love for data analysis and sports entertainment.</p>
 
   <p>I am authorized to work in the United States without sponsorship.</p>
@@ -20,13 +20,13 @@ redirect_from:
 
 <div class="about-page-background">
    <h1>Professional Experience</h1>
-   <h2>Xeward, Inc. — New York, NY</h2>
-<h3>Founder & Lead Developer (Part-Time)</h3>
+   <h2>Xeward, Inc. — New York, NY, USA</h2>
+<h3>Founder & Full-Stack Engineer</h3>
 <p>May 2023 - Present</p>
 <ul>
-<li>Led the creation and launch of <a href="https://www.surgg.io/" target="_blank">Surgg</a>, a short video entertainment app, integrating real-time Google Trends for trend tracking on web, <a href="https://apps.apple.com/us/app/surgg/id6472812740" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.surgg" target="_blank">Android</a>.</li>
-<li>Managed end-to-end full stack development, from frontend design using modern frameworks to backend server setup and maintenance.</li>
-<li>Integrated Google Ads and optimized server costs to ensure the platform's sustainable operations and profitability.</li>
+<li>Led product ideation to launch of Surgg, a multi-platform entertainment news app, garnering 3.5K+ social followers and 60+ iOS/Android downloads, showcasing successful user acquisition strategies.</li>
+<li>Managed end-to-end development, from UI/UX design using modern frameworks to backend server setup and maintenance.</li>
+<li>Integrated AdMob and AdSense into mobile and web platforms, offsetting $1K/month in server costs through ad revenue to achieve more sustainable operations and explore scalable monetization strategies.</li>
 </ul>
 <h2>Humuson (<a href="https://humuson.com" target="_blank">Marketing Automation Company</a>) — Seoul, South Korea</h2>
 <h3>Data Analyst Intern</h3>
