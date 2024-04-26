@@ -13,7 +13,7 @@ redirect_from:
   
   <p>As a master's student at <a href="https://www.columbia.edu/">Columbia University</a>, pursuing a degree in Applied Analytics, I am interested in AI, Data Science, & Product Development. I'm also working on a project called <a href="https://www.surgg.io">Surgg</a> - a real-time search trend entertainment app recently featured in <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a></p>
 
-  <p>I am authorized to work in the United States without sponsorship and would be interested in opportunities where I can develop as a TPM/data engineer.</p>
+  <p>I am authorized to work in the United States without sponsorship.</p>
 </div>
 
 
@@ -23,30 +23,30 @@ redirect_from:
 <h3>Founder & Lead Developer (Part-Time)</h3>
 <p>May 2023 - Present</p>
 <ul>
-  <li>Led the creation and launch of <a href="https://www.surgg.io/" target="_blank">Surgg</a>, a short video entertainment app, integrating real-time Google Trends for trend tracking on web, <a href="https://apps.apple.com/us/app/surgg/id6472812740" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.surgg" target="_blank">Android</a>.</li>
-  <li>Managed end-to-end full stack development, from frontend design using modern frameworks to backend server setup and maintenance.</li>
-  <li>Integrated Google Ads and optimized server costs to ensure the platform's sustainable operations and profitability.</li>
+<li>Led the creation and launch of <a href="https://www.surgg.io/" target="_blank">Surgg</a>, a short video entertainment app, integrating real-time Google Trends for trend tracking on web, <a href="https://apps.apple.com/us/app/surgg/id6472812740" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.surgg" target="_blank">Android</a>.</li>
+<li>Managed end-to-end full stack development, from frontend design using modern frameworks to backend server setup and maintenance.</li>
+<li>Integrated Google Ads and optimized server costs to ensure the platform's sustainable operations and profitability.</li>
 </ul>
-
-<h2>HumusOn — Seoul, South Korea</h2>
+<h2>Humuson (<a href="https://humuson.com" target="_blank">Marketing Automation Company</a>) — Seoul, South Korea</h2>
 <h3>Data Analyst Intern</h3>
 <p>Jun 2022 - Aug 2022</p>
 <ul>
-  <li>Engineered automation protocols and API integrations, bolstering CRM effectiveness. Utilized Python, and Scikit-learn to build ML models for large datasets, and leveraged Tableau for customer demand forecasting and statistical reporting.</li>
+<li>Engineered automation protocols and API integrations, bolstering CRM effectiveness. Utilized Python and Scikit-learn to build ML models for large datasets, and leveraged Tableau for customer demand forecasting and statistical reporting.</li>
+<li>Collaborated with cross-functional teams to identify opportunities for process optimization and developed data-driven solutions to enhance marketing strategies.</li>
 </ul>
-
-<h2>Witchcompany co. — Seoul, South Korea</h2>
+<h2>Witch (<a href="https://team.witchcompany.io/" target="_blank">Blockchain Startup</a>) — Seoul, South Korea</h2>
 <h3>Software Engineering Intern</h3>
 <p>Jun 2021 - Aug 2021</p>
 <ul>
-  <li>Enhanced UX by integrating DApps with Ethereum blockchain and developing secure smart contracts with Solidity.</li>
+<li>Enhanced UX by integrating decentralized applications (DApps) with the Ethereum blockchain and developing secure smart contracts using Solidity.</li>
+<li>Contributed to the development of a blockchain-based platform, focusing on improving scalability, security, and user adoption.</li>
 </ul>
-
-<h2>Upcoming — Seoul, South Korea</h2>
+<h2>Upcoming Startup — Seoul, South Korea</h2>
 <h3>Front-End Development Intern</h3>
 <p>Jun 2020 - Aug 2020</p>
 <ul>
-  <li>Gained extensive knowledge of MVC architecture via Android/IOS Swift and Full Stack development workshops.</li>
+<li>Gained extensive knowledge of Model-View-Controller (MVC) architecture through hands-on experience with Android/iOS Swift and Full Stack development workshops.</li>
+<li>Collaborated with the development team to create responsive and user-friendly interfaces for mobile and web applications.</li>
 </ul>
 
 <h2>Ministry of National Defense — Seoul, South Korea</h2>
