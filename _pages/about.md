@@ -18,19 +18,14 @@ redirect_from:
 </div>
 
 <div class="about-page-background">
-  <h2>Awards & Recognition</h2>
+  <h2>Key Milestones</h2>
   <h3>2024 UNICC x Columbia Thinkathon Competition</h3>
-  <p>April 2024</p>
+  <p>New York, NY | April 2024</p>
   <ul>
     <li>Selected as a Top 5 Finalist in the 2024 Global Innovation Challenge - Digital Diplomacy, held by the United Nations International Computing Centre (UNICC) and Columbia University</li>
   </ul>
-  <h3>Surgg featured in New York Weekly</h3>
-  <p>November 2023</p>
-  <ul>
-    <li>Surgg featured in New York Weekly's top headline for its innovative approach to news media and social platforms</li>
-  </ul>
-  <h3>Defense Security Agency (Military), Seoul, South Korea</h3>
-  <p>August 2017 - June 2019</p>
+  <h3>Defense Security Agency (Military)</h3>
+  <p>Seoul, South Korea | August 2017 - June 2019</p>
   <ul>
     <li>Served as a Signals Intelligence Officer and English Interpreter, facilitating collaborations on signal intelligence and antenna technologies with General Dynamics & Espy Corporation</li>
     <li>Recognized with a Letter of Appreciation from the National Security Agency (NSA) for enhancing team comprehension of complex communications systems</li>
