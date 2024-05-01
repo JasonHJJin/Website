@@ -17,6 +17,25 @@ redirect_from:
 <p>I am authorized to work in the United States without sponsorship.</p>
 </div>
 
+<div class="about-page-background">
+  <h2>Awards & Recognition</h2>
+  <h3>2024 UNICC x Columbia Thinkathon Competition</h3>
+  <p>April 2024</p>
+  <ul>
+    <li>Selected as a Top 5 Finalist in the 2024 Global Innovation Challenge - Digital Diplomacy, held by the United Nations International Computing Centre (UNICC) and Columbia University</li>
+  </ul>
+  <h3>Surgg featured in New York Weekly</h3>
+  <p>November 2023</p>
+  <ul>
+    <li>Surgg featured in New York Weekly's top headline for its innovative approach to news media and social platforms</li>
+  </ul>
+  <h3>Defense Security Agency (Military), Seoul, South Korea</h3>
+  <p>August 2017 - June 2019</p>
+  <ul>
+    <li>Served as a Signals Intelligence Officer and English Interpreter, facilitating collaborations on signal intelligence and antenna technologies with General Dynamics & Espy Corporation</li>
+    <li>Recognized with a Letter of Appreciation from the National Security Agency (NSA) for enhancing team comprehension of complex communications systems</li>
+  </ul>
+</div>
 
 <div class="about-page-background">
    <h1>Professional Experience</h1>
@@ -28,14 +47,14 @@ redirect_from:
 <li>Managed end-to-end development, from UI/UX design using modern frameworks to backend server setup and maintenance.</li>
 <li>Integrated AdMob and AdSense into mobile and web platforms, offsetting $1K/month in server costs through ad revenue to achieve more sustainable operations and explore scalable monetization strategies.</li>
 </ul>
-<h2>Humuson (<a href="https://humuson.com" target="_blank">Marketing Automation Company</a>) — Seoul, South Korea</h2>
+<h2>humusOn (<a href="https://humuson.com" target="_blank">Marketing Automation Company</a>) — Seoul, South Korea</h2>
 <h3>Data Analyst Intern</h3>
 <p>Jun 2022 - Aug 2022</p>
 <ul>
 <li>Engineered automation protocols and API integrations, bolstering CRM effectiveness. Utilized Python and Scikit-learn to build ML models for large datasets, and leveraged Tableau for customer demand forecasting and statistical reporting.</li>
 <li>Collaborated with cross-functional teams to identify opportunities for process optimization and developed data-driven solutions to enhance marketing strategies.</li>
 </ul>
-<h2>Witch (<a href="https://team.witchcompany.io/" target="_blank">Blockchain Startup</a>) — Seoul, South Korea</h2>
+<h2>Witchcompany (<a href="https://team.witchcompany.io/" target="_blank">Blockchain Startup</a>) — Seoul, South Korea</h2>
 <h3>Software Engineering Intern</h3>
 <p>Jun 2021 - Aug 2021</p>
 <ul>
