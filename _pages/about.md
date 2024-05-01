@@ -18,7 +18,7 @@ redirect_from:
 </div>
 
 <div class="about-page-background">
-  <h2>Key Milestones</h2>
+  <h2>Key Milestones ...</h2>
   <h3>2024 UNICC x Columbia Thinkathon Competition</h3>
   <p>New York, NY | April 2024</p>
   <ul>
