@@ -53,6 +53,11 @@
             margin: 0 0 30px;
             color: var(--text-color-secondary);
         }
+        .spinner-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
         .spinner {
             width: 60px;
             height: 60px;
@@ -75,6 +80,21 @@
             animation: swipeUpFade 2s ease-in-out infinite;
             cursor: pointer;
             user-select: none;
+            position: relative;
+            padding-top: 20px;
+        }
+        .swipe-up::before {
+            content: "↑";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .swipe-up:hover::before {
+            opacity: 1;
         }
         @keyframes swipeUpFade {
             0%, 100% { opacity: 0; }
@@ -86,23 +106,29 @@
     <div class="container">
         <h1>Redirecting</h1>
         <p>You will be redirected to Jason's Website shortly.</p>
-        <div class="spinner"></div>
-        <div class="swipe-up">Swipe up for faster reloading</div>
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+        <div class="swipe-up">Touch to immediately load!</div>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const redirectUrl = 'https://hyungjoonjin.com';
             const swipeUpElement = document.querySelector('.swipe-up');
             let redirectTimeout;
-
-            swipeUpElement.addEventListener('touchend', () => {
-                window.location.href = redirectUrl;
+            let touchStartY = 0;
+            swipeUpElement.addEventListener('touchstart', (event) => {
+                touchStartY = event.touches[0].clientY;
             });
-
+            swipeUpElement.addEventListener('touchend', (event) => {
+                const touchEndY = event.changedTouches[0].clientY;
+                if (touchStartY - touchEndY > 50) {
+                    window.location.href = redirectUrl;
+                }
+            });
             redirectTimeout = setTimeout(() => {
                 window.location.href = redirectUrl;
             }, 5000);
-
             document.addEventListener('touchstart', () => {
                 clearTimeout(redirectTimeout);
                 redirectTimeout = setTimeout(() => {
