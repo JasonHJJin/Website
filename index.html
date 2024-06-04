@@ -3,80 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--     <meta http-equiv="refresh" content="5; url=https://hyungjoonjin.com" /> -->
     <title>Home | Redirecting</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-   <style>
-    :root {
-        --primary-color: #2c3e50;
-        --secondary-color: #34495e;
-        --background-gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-        --text-color-main: #ecf0f1;
-        --text-color-secondary: #bdc3c7;
-        --accent-color: #3498db;
-    }
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: var(--background-gradient);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    .container {
-        text-align: center;
-        background-color: rgba(44, 62, 80, 0.9);
-        padding: 40px;
-        border-radius: 15px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-        max-width: 400px;
-        width: 85%;
-        position: relative;
-        overflow: hidden;
-        animation: fadeIn 1s ease-in-out;
-    }
-    h1, p {
-        color: var(--text-color-main);
-        animation: slideIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
-    }
-    h1 {
-        font-size: 32px;
-        font-weight: 600;
-        margin: 0 0 20px 0;
-        letter-spacing: 1px;
-    }
-    p {
-        font-size: 16px;
-        margin: 0 0 30px 0;
-        color: var(--text-color-secondary);
-    }
-    .spinner {
-        width: 50px;
-        height: 50px;
-        border: 4px solid rgba(255, 255, 255, 0.3);
-        border-radius: 50%;
-        border-top-color: var(--accent-color);
-        animation: spin 1s ease-in-out infinite;
-    }
-    .background-shapes .shape {
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
-        animation: morph 8s ease-in-out infinite;
-    }
-    .shape-1, .shape-2, .shape-3 {
-        animation-delay: 0s, 2s, 4s;
-    }
-    .swipe-up {
-        color: var(--text-color-secondary);
-        font-size: 14px;
-        animation: swipeUpFade 2s ease-in-out infinite;
-        cursor: pointer; /* Indicates this is an interactive element */
-        user-select: none; /* Prevents text selection */
-    }
-</style>
+    <style>
+        :root {
+            --primary-color: #1B263B;
+            --secondary-color: #415A77;
+            --background-gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            --text-color-main: #FFFFFF;
+            --text-color-secondary: #CAD3E2;
+            --accent-color: #3498db;
+            --box-background: rgba(28, 40, 51, 0.95);
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--background-gradient);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            transition: background-color 0.5s ease;
+        }
+        .container {
+            text-align: center;
+            background-color: var(--box-background);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1, p {
+            color: var(--text-color-main);
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0 0 20px;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 18px;
+            margin: 0 0 30px;
+            color: var(--text-color-secondary);
+        }
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: var(--accent-color);
+            animation: spin 1s linear infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .swipe-up {
+            color: var(--text-color-secondary);
+            font-size: 14px;
+            animation: swipeUpFade 2s ease-in-out infinite;
+            cursor: pointer;
+            user-select: none;
+        }
+        @keyframes swipeUpFade {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -85,39 +89,27 @@
         <div class="spinner"></div>
         <div class="swipe-up">Swipe up for faster reloading</div>
     </div>
-    <div class="background-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-    </div>
-
-
-
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const redirectUrl = 'https://hyungjoonjin.com';
-        const swipeUpElement = document.querySelector('.swipe-up');
-        let redirectTimeout;
+        document.addEventListener('DOMContentLoaded', () => {
+            const redirectUrl = 'https://hyungjoonjin.com';
+            const swipeUpElement = document.querySelector('.swipe-up');
+            let redirectTimeout;
 
-        // Swipe up interaction
-        swipeUpElement.addEventListener('touchend', (e) => {
-            window.location.href = redirectUrl;
-        });
+            swipeUpElement.addEventListener('touchend', () => {
+                window.location.href = redirectUrl;
+            });
 
-        // Automatic redirect after a few seconds
-        redirectTimeout = setTimeout(() => {
-            window.location.href = redirectUrl;
-        }, 5000); // Adjust delay as needed
-
-        // Reset timer on user activity
-        document.addEventListener('touchstart', () => {
-            clearTimeout(redirectTimeout);
             redirectTimeout = setTimeout(() => {
                 window.location.href = redirectUrl;
-            }, 5000); // Refresh the timeout on activity
-        });
-    });
-</script>
+            }, 5000);
 
+            document.addEventListener('touchstart', () => {
+                clearTimeout(redirectTimeout);
+                redirectTimeout = setTimeout(() => {
+                    window.location.href = redirectUrl;
+                }, 5000);
+            });
+        });
+    </script>
 </body>
 </html>
