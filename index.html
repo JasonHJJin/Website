@@ -13,7 +13,6 @@
             --text-color-main: #333;
             --text-color-secondary: #777;
         }
-
         body {
             font-family: 'Poppins', sans-serif;
             background: var(--background-gradient);
@@ -25,7 +24,6 @@
             padding: 0;
             overflow: hidden;
         }
-
         .container {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.9);
@@ -36,22 +34,22 @@
             width: 85%;
             position: relative;
             overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
         }
-
         h1 {
             color: var(--text-color-main);
             font-size: 32px;
             font-weight: 600;
             margin: 0 0 20px 0;
             letter-spacing: 1px;
+            animation: slideInDown 1s ease-in-out;
         }
-
         p {
             color: var(--text-color-secondary);
             font-size: 16px;
             margin: 0 0 30px 0;
+            animation: slideInUp 1s ease-in-out;
         }
-
         .spinner {
             display: inline-block;
             width: 50px;
@@ -61,9 +59,72 @@
             border-top-color: var(--primary-color);
             animation: spin 1s linear infinite;
         }
-
         @keyframes spin {
             to { transform: rotate(360deg); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        @keyframes slideInUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .background-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        .shape {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            animation: float 5s ease-in-out infinite;
+        }
+        .shape-1 {
+            width: 120px;
+            height: 120px;
+            top: -30px;
+            left: -30px;
+        }
+        .shape-2 {
+            width: 80px;
+            height: 80px;
+            bottom: -20px;
+            right: -20px;
+            animation-delay: 2s;
+        }
+        .shape-3 {
+            width: 60px;
+            height: 60px;
+            top: 30px;
+            right: 30px;
+            animation-delay: 1s;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
@@ -72,6 +133,11 @@
         <h1>Redirecting</h1>
         <p>You will be redirected to Jason's Website shortly.</p>
         <div class="spinner"></div>
+    </div>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
     </div>
 </body>
 </html>
