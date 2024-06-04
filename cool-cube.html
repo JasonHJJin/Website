@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Spinning Globe Animation</title>
+<title>Spinning Cube Animation</title>
 <style>
-  body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-  canvas { border: 1px solid black; }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  canvas {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 </style>
 </head>
 <body>
@@ -13,53 +22,66 @@
 <script>
   const canvas = document.getElementById('canvas');
   const ctx = canvas.getContext('2d');
-  canvas.width = 400;
-  canvas.height = 400;
-  let A = 0, B = 0, C = 0;
-  const globeRadius = 100;
-  const distanceFromCam = 300;
-  const K1 = 200;
-  const incrementSpeed = 0.1;
-  const texture = new Image();
-texture.src = 'https://www.solarsystemscope.com/textures/download/8k_earth_daymap.jpg';
+  canvas.width = 300;
+  canvas.height = 300;
+
+  let A = 0, B = 0;
+  const cubeWidth = 50;
+  const distanceFromCam = 100;
+  const K1 = 100;
+
   function project(x, y, z) {
     const ooz = 1 / (z + distanceFromCam);
-    const xp = canvas.width / 2 + K1 * ooz * x * 2;
+    const xp = canvas.width / 2 + K1 * ooz * x;
     const yp = canvas.height / 2 + K1 * ooz * y;
     return {xp, yp};
   }
-  function drawGlobe() {
+
+  function drawCube() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    for (let i = 0; i < Math.PI; i += incrementSpeed) {
-      for (let j = 0; j < Math.PI * 2; j += incrementSpeed) {
-        const x = globeRadius * Math.sin(i) * Math.cos(j);
-        const y = globeRadius * Math.sin(i) * Math.sin(j);
-        const z = globeRadius * Math.cos(i);
-        const rotated = rotate(x, y, z);
-        const {xp, yp} = project(rotated.x, rotated.y, rotated.z);
-        const u = j / (Math.PI * 2);
-        const v = i / Math.PI;
-        ctx.drawImage(texture, u * texture.width, v * texture.height, 1, 1, xp, yp, 2, 2);
-      }
-    }
+    const faces = [
+      {points: [[-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1]], color: 'rgba(255,0,0,0.5)'}, // Front face
+      {points: [[-1, -1, 1], [1, -1, 1], [1, 1, 1], [-1, 1, 1]], color: 'rgba(0,255,0,0.5)'}, // Back face
+      {points: [[-1, -1, -1], [-1, 1, -1], [-1, 1, 1], [-1, -1, 1]], color: 'rgba(0,0,255,0.5)'}, // Left face
+      {points: [[1, -1, -1], [1, 1, -1], [1, 1, 1], [1, -1, 1]], color: 'rgba(255,255,0,0.5)'}, // Right face
+      {points: [[-1, -1, -1], [1, -1, -1], [1, -1, 1], [-1, -1, 1]], color: 'rgba(255,0,255,0.5)'}, // Top face
+      {points: [[-1, 1, -1], [1, 1, -1], [1, 1, 1], [-1, 1, 1]], color: 'rgba(0,255,255,0.5)'}  // Bottom face
+    ];
+
+    faces.forEach(face => {
+      const projectedPoints = face.points.map(p => {
+        const rotated = rotate(p[0] * cubeWidth, p[1] * cubeWidth, p[2] * cubeWidth);
+        return project(rotated.x, rotated.y, rotated.z);
+      });
+
+      ctx.beginPath();
+      ctx.moveTo(projectedPoints[0].xp, projectedPoints[0].yp);
+      projectedPoints.forEach(point => ctx.lineTo(point.xp, point.yp));
+      ctx.closePath();
+      ctx.fillStyle = face.color;
+      ctx.fill();
+    });
   }
+
   function rotate(x, y, z) {
     const sinA = Math.sin(A), cosA = Math.cos(A);
     const sinB = Math.sin(B), cosB = Math.cos(B);
-    const sinC = Math.sin(C), cosC = Math.cos(C);
-    const xNew = x * cosB * cosC + y * (sinA * sinB * cosC + cosA * sinC) + z * (cosA * sinB * cosC - sinA * sinC);
-    const yNew = x * -cosB * sinC + y * (-sinA * sinB * sinC + cosA * cosC) + z * (-cosA * sinB * sinC - sinA * cosC);
-    const zNew = x * sinB + y * -sinA * cosB + z * cosA * cosB;
+
+    const xNew = x * cosB + z * sinB;
+    const yNew = x * sinA * sinB + y * cosA - z * sinA * cosB;
+    const zNew = -x * cosA * sinB + y * sinA + z * cosA * cosB;
+
     return {x: xNew, y: yNew, z: zNew};
   }
+
   function animate() {
-    A += 0.005;
-    B += 0.005;
-    C += 0.001;
-    drawGlobe();
+    A += 0.03; // rotation speed around vertical axis
+    B += 0.03; // rotation speed around horizontal axis
+    drawCube();
     requestAnimationFrame(animate);
   }
-  texture.onload = animate;
+
+  animate();
 </script>
 </body>
 </html>
