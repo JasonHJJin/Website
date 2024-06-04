@@ -38,6 +38,7 @@
             position: relative;
             overflow: hidden;
             animation: fadeIn 1s ease-in-out;
+            cursor: pointer;
         }
         h1, p {
             color: var(--text-color-main);
@@ -74,32 +75,6 @@
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
-        .swipe-up {
-            color: var(--text-color-secondary);
-            font-size: 14px;
-            animation: swipeUpFade 2s ease-in-out infinite;
-            cursor: pointer;
-            user-select: none;
-            position: relative;
-            padding-top: 20px;
-        }
-        .swipe-up::before {
-            content: "↑";
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 18px;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-        .swipe-up:hover::before {
-            opacity: 1;
-        }
-        @keyframes swipeUpFade {
-            0%, 100% { opacity: 0; }
-            50% { opacity: 1; }
-        }
     </style>
 </head>
 <body>
@@ -109,32 +84,19 @@
         <div class="spinner-container">
             <div class="spinner"></div>
         </div>
-        <div class="swipe-up">Touch to immediately load!</div>
+        <p>Touch anywhere to redirect immediately.</p>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const redirectUrl = 'https://hyungjoonjin.com';
-            const swipeUpElement = document.querySelector('.swipe-up');
+            const container = document.querySelector('.container');
             let redirectTimeout;
-            let touchStartY = 0;
-            swipeUpElement.addEventListener('touchstart', (event) => {
-                touchStartY = event.touches[0].clientY;
-            });
-            swipeUpElement.addEventListener('touchend', (event) => {
-                const touchEndY = event.changedTouches[0].clientY;
-                if (touchStartY - touchEndY > 50) {
-                    window.location.href = redirectUrl;
-                }
+            container.addEventListener('touchstart', () => {
+                window.location.href = redirectUrl;
             });
             redirectTimeout = setTimeout(() => {
                 window.location.href = redirectUrl;
             }, 5000);
-            document.addEventListener('touchstart', () => {
-                clearTimeout(redirectTimeout);
-                redirectTimeout = setTimeout(() => {
-                    window.location.href = redirectUrl;
-                }, 5000);
-            });
         });
     </script>
 </body>
