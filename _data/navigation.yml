@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Resume/CV"
-    url: /files/resume.pdf
+  # - title: "Resume/CV"
+  #   url: /files/resume.pdf
 
   # - title: "Xeward - Surgg"
   #   url: /files/pitch-deck.pdf
