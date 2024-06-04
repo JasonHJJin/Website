@@ -29,16 +29,17 @@
     const distanceFromCam = 400;
     const K1 = 200;
     const incrementSpeed = 0.05;
-
+    const mapImage = new Image();
+    mapImage.src = 'https://i.imgur.com/vl9DTrt.jpg';
     function project(x, y, z) {
-  const ooz = 1 / (z + distanceFromCam);
-  const xp = canvas.width / 2 + K1 * ooz * x;
-  const yp = canvas.height / 2 + K1 * ooz * y;
-  return {xp, yp};
-}
-
-function drawGlobe() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const ooz = 1 / (z + distanceFromCam);
+      const xp = canvas.width / 2 + K1 * ooz * x;
+      const yp = canvas.height / 2 + K1 * ooz * y;
+      return {xp, yp};
+    }
+    function drawGlobe() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(mapImage, 0, 0, canvas.width, canvas.height);
   
   for (let theta = 0; theta < Math.PI; theta += incrementSpeed) {
     for (let phi = 0; phi < 2 * Math.PI; phi += incrementSpeed) {
@@ -49,18 +50,17 @@ function drawGlobe() {
       const rotated = rotate(x, y, z);
       const {xp, yp} = project(rotated.x, rotated.y, rotated.z);
       
-      const gradient = Math.sin(theta);
-      const gray = Math.floor(gradient * 255);
-      ctx.fillStyle = `rgb(${gray}, ${gray}, ${gray})`;
+      ctx.globalAlpha = 0.7;
+      ctx.fillStyle = getPixelColor(xp, yp);
       
       ctx.beginPath();
-      ctx.arc(xp, yp, 2, 0, Math.PI * 2);
+      ctx.arc(xp, yp, 1, 0, Math.PI * 2);
       ctx.closePath();
       ctx.fill();
+      ctx.globalAlpha = 1;
     }
   }
 }
-
 function rotate(x, y, z) {
   const sinA = Math.sin(A), cosA = Math.cos(A);
   const sinB = Math.sin(B), cosB = Math.cos(B);
@@ -72,17 +72,19 @@ function rotate(x, y, z) {
   
   return {x: xNew, y: yNew, z: zNew};
 }
-
+function getPixelColor(x, y) {
+  const imageData = ctx.getImageData(x, y, 1, 1);
+  const [r, g, b] = imageData.data;
+  return `rgb(${r}, ${g}, ${b})`;
+}
 function animate() {
-  A += 0.01;
-  B += 0.01;
+  A += 0.005;
+  B += 0.005;
   C += 0.005;
   drawGlobe();
   requestAnimationFrame(animate);
 }
-
-animate();
-
-    </script>
+mapImage.onload = animate;
+  </script>
 </body>
 </html>
